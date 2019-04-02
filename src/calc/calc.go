@@ -7,7 +7,6 @@ import (
 	"strconv"
 )
 
-
 var Usage = func() {
 	fmt.Println("USAGE: calc command [arguments] ...")
 	fmt.Println("\nThe commands are: \n\tadd\t两个参数相加 \n\tsqrt\t开根号")
@@ -35,6 +34,9 @@ func main() {
 			}
 			ret := simplemath.Add(v1, v2)
 			fmt.Println("Result: ", ret)
+		case "sqrt":
+
+
 		default:
 			Usage()
 	}
