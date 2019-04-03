@@ -37,5 +37,4 @@ func main(){
 	fmt.Println(utf8.RuneCountInString(str2))
 	fmt.Println(reflect.TypeOf('a'))
 	fmt.Println(reflect.TypeOf("a"))
-
 }
