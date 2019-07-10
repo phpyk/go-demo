@@ -1,11 +1,8 @@
 package simplemath
 
-import (
-	"math"
-)
+import "math"
 
-func Sqrt(val int) int {
-	result := math.Sqrt(float64(val))
-	return int(result)
+func Sqrt(i int) int {
+	v := math.Sqrt(float64(i))
+	return int(v)
 }
-
