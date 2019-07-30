@@ -24,6 +24,7 @@ func main() {
 	list[2] = People{"yuekai",30,"17505818455"}
 
 	for index,element := range list {
+		//用if判断时，要加ok断言
 		if value,ok := element.(int);ok {
 			fmt.Printf("list[%d] is an int and its value is %d\n",index,value)
 		}else if value,ok := element.(string);ok {
@@ -36,17 +37,19 @@ func main() {
 	}
 
 	for index, element := range list{
-		switch value,ok := element.(type) {
-			case int:
-				fmt.Printf("list[%d] is an int and its value is %d\n", index, value)
-			case string:
-				fmt.Printf("list[%d] is a string and its value is %s\n", index, value)
-			case People:
-				fmt.Printf("list[%d] is a Person and its value is %s\n", index, value)
-			default:
-				fmt.Printf("list[%d] is of a different type", index)
+		//用switch判断是可以省略ok断言
+		switch value := element.(type) {
+		case int:
+			fmt.Printf("list[%d] is an int and its value is %d\n", index, value)
+		case string:
+			fmt.Printf("list[%d] is a string and its value is %s\n", index, value)
+		case People:
+			fmt.Printf("list[%d] is a Person and its value is %s\n", index, value)
+		default:
+			fmt.Printf("list[%d] is of a different type", index)
 		}
 	}
+
 }
 
 type Element interface {}
