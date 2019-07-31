@@ -34,8 +34,19 @@ func main() {
 	go sum(a[:len(a)/2],c)
 	go sum(a[len(a)/2:],c)
 	x,y := <-c,<-c
-	fmt.Printf("x:%d,y:%d,x+y:%d",x,y,x+y)
+	fmt.Printf("x:%d,y:%d,x+y:%d \n",x,y,x+y)
+
+
+	d := make(chan int ,4)
+	d <- 1
+	d <- 2
+	d <- 3
+	fmt.Println(<-d)
+	fmt.Println(<-d)
+	fmt.Println(<-d)
 }
+
+
 
 func sum(a []int, c chan int) {
 	total := 0
