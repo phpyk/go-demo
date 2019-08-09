@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 	"os"
-	"sorter/algorithms/qsort"
+	"base/sorterorter/algorithms/qsort"
 	"strconv"
 	"time"
 )

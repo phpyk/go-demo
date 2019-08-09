@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"simplemath"
+	"base/simplemathemath"
 )
 
 func main() {
