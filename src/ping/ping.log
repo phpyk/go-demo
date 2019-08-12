@@ -1,0 +1,175 @@
+US-West (Oregon): dynamodb.us-west-2.amazonaws.com (52.94.28.8):
+24 bytes from 52.94.28.8: icmp_seq=0 time=188.24355ms
+24 bytes from 52.94.28.8: icmp_seq=1 time=188.07411ms
+24 bytes from 52.94.28.8: icmp_seq=2 time=188.989993ms
+24 bytes from 52.94.28.8: icmp_seq=3 time=188.961662ms
+24 bytes from 52.94.28.8: icmp_seq=4 time=189.001619ms
+24 bytes from 52.94.28.8: icmp_seq=5 time=188.847637ms
+24 bytes from 52.94.28.8: icmp_seq=6 time=189.056242ms
+24 bytes from 52.94.28.8: icmp_seq=7 time=189.112208ms
+24 bytes from 52.94.28.8: icmp_seq=8 time=188.863463ms
+24 bytes from 52.94.28.8: icmp_seq=9 time=189.669436ms
+--- US-West (Oregon) ping 统计 ---
+发送数量：10 , 接收数量：10, 丢包数量：0%
+时长统计： min/avg/max/stddev = 188.07411ms/188.881992ms/189.669436ms/423.976µs
+
+Canada (Central): dynamodb.ca-central-1.amazonaws.com (52.94.14.96):
+24 bytes from 52.94.14.96: icmp_seq=0 time=386.927448ms
+24 bytes from 52.94.14.96: icmp_seq=1 time=307.300647ms
+24 bytes from 52.94.14.96: icmp_seq=2 time=331.43439ms
+24 bytes from 52.94.14.96: icmp_seq=3 time=354.559401ms
+24 bytes from 52.94.14.96: icmp_seq=4 time=378.56107ms
+24 bytes from 52.94.14.96: icmp_seq=5 time=401.02028ms
+24 bytes from 52.94.14.96: icmp_seq=6 time=321.517629ms
+24 bytes from 52.94.14.96: icmp_seq=7 time=345.65708ms
+24 bytes from 52.94.14.96: icmp_seq=8 time=372.1815ms
+24 bytes from 52.94.14.96: icmp_seq=9 time=397.9801ms
+--- Canada (Central) ping 统计 ---
+发送数量：10 , 接收数量：10, 丢包数量：0%
+时长统计： min/avg/max/stddev = 307.300647ms/359.713954ms/401.02028ms/31.067267ms
+
+Europe (Frankfurt): dynamodb.eu-central-1.amazonaws.com (52.94.17.76):
+24 bytes from 52.94.17.76: icmp_seq=0 time=406.320357ms
+24 bytes from 52.94.17.76: icmp_seq=1 time=427.760479ms
+24 bytes from 52.94.17.76: icmp_seq=2 time=348.130631ms
+24 bytes from 52.94.17.76: icmp_seq=3 time=374.647215ms
+24 bytes from 52.94.17.76: icmp_seq=4 time=328.572882ms
+24 bytes from 52.94.17.76: icmp_seq=5 time=418.966608ms
+24 bytes from 52.94.17.76: icmp_seq=6 time=344.481725ms
+24 bytes from 52.94.17.76: icmp_seq=7 time=364.765755ms
+24 bytes from 52.94.17.76: icmp_seq=8 time=392.716104ms
+24 bytes from 52.94.17.76: icmp_seq=9 time=415.870282ms
+--- Europe (Frankfurt) ping 统计 ---
+发送数量：10 , 接收数量：10, 丢包数量：0%
+时长统计： min/avg/max/stddev = 328.572882ms/382.223203ms/427.760479ms/33.277407ms
+
+Asia Pacific (Seoul): dynamodb.ap-northeast-2.amazonaws.com (52.94.6.148):
+24 bytes from 52.94.6.148: icmp_seq=0 time=186.799887ms
+24 bytes from 52.94.6.148: icmp_seq=1 time=200.956032ms
+24 bytes from 52.94.6.148: icmp_seq=2 time=202.038201ms
+24 bytes from 52.94.6.148: icmp_seq=3 time=189.735368ms
+24 bytes from 52.94.6.148: icmp_seq=4 time=199.461683ms
+24 bytes from 52.94.6.148: icmp_seq=5 time=205.701404ms
+24 bytes from 52.94.6.148: icmp_seq=6 time=188.574063ms
+24 bytes from 52.94.6.148: icmp_seq=7 time=195.061153ms
+24 bytes from 52.94.6.148: icmp_seq=8 time=201.761755ms
+24 bytes from 52.94.6.148: icmp_seq=9 time=196.271562ms
+--- Asia Pacific (Seoul) ping 统计 ---
+发送数量：10 , 接收数量：10, 丢包数量：0%
+时长统计： min/avg/max/stddev = 186.799887ms/196.63611ms/205.701404ms/6.134015ms
+
+Asia Pacific (Sydney): dynamodb.ap-southeast-2.amazonaws.com (52.94.13.20):
+24 bytes from 52.94.13.20: icmp_seq=0 time=362.175592ms
+24 bytes from 52.94.13.20: icmp_seq=1 time=307.709561ms
+24 bytes from 52.94.13.20: icmp_seq=2 time=406.51901ms
+24 bytes from 52.94.13.20: icmp_seq=3 time=328.238689ms
+24 bytes from 52.94.13.20: icmp_seq=4 time=352.216361ms
+24 bytes from 52.94.13.20: icmp_seq=5 time=375.993656ms
+24 bytes from 52.94.13.20: icmp_seq=6 time=400.453878ms
+24 bytes from 52.94.13.20: icmp_seq=7 time=424.222329ms
+24 bytes from 52.94.13.20: icmp_seq=8 time=346.502286ms
+24 bytes from 52.94.13.20: icmp_seq=9 time=326.407215ms
+--- Asia Pacific (Sydney) ping 统计 ---
+发送数量：10 , 接收数量：10, 丢包数量：0%
+时长统计： min/avg/max/stddev = 307.709561ms/363.043857ms/424.222329ms/36.341768ms
+
+US-East (Virginia): dynamodb.us-east-1.amazonaws.com (52.94.1.214):
+24 bytes from 52.94.1.214: icmp_seq=0 time=360.903776ms
+24 bytes from 52.94.1.214: icmp_seq=1 time=347.4867ms
+24 bytes from 52.94.1.214: icmp_seq=2 time=269.753689ms
+24 bytes from 52.94.1.214: icmp_seq=3 time=290.020672ms
+24 bytes from 52.94.1.214: icmp_seq=4 time=314.328176ms
+24 bytes from 52.94.1.214: icmp_seq=5 time=339.438235ms
+24 bytes from 52.94.1.214: icmp_seq=6 time=261.8528ms
+24 bytes from 52.94.1.214: icmp_seq=7 time=285.083273ms
+24 bytes from 52.94.1.214: icmp_seq=8 time=307.155931ms
+24 bytes from 52.94.1.214: icmp_seq=9 time=332.425211ms
+--- US-East (Virginia) ping 统计 ---
+发送数量：10 , 接收数量：10, 丢包数量：0%
+时长统计： min/avg/max/stddev = 261.8528ms/310.844846ms/360.903776ms/32.161415ms
+
+US-West (California): dynamodb.us-west-1.amazonaws.com (52.94.12.132):
+24 bytes from 52.94.12.132: icmp_seq=0 time=162.217602ms
+24 bytes from 52.94.12.132: icmp_seq=1 time=163.04438ms
+24 bytes from 52.94.12.132: icmp_seq=2 time=162.434181ms
+24 bytes from 52.94.12.132: icmp_seq=3 time=162.585154ms
+24 bytes from 52.94.12.132: icmp_seq=4 time=162.261203ms
+24 bytes from 52.94.12.132: icmp_seq=5 time=162.266652ms
+24 bytes from 52.94.12.132: icmp_seq=6 time=163.114649ms
+24 bytes from 52.94.12.132: icmp_seq=7 time=163.001296ms
+24 bytes from 52.94.12.132: icmp_seq=8 time=164.459427ms
+24 bytes from 52.94.12.132: icmp_seq=9 time=163.150099ms
+--- US-West (California) ping 统计 ---
+发送数量：10 , 接收数量：10, 丢包数量：0%
+时长统计： min/avg/max/stddev = 162.217602ms/162.853464ms/164.459427ms/643.495µs
+
+Asia Pacific (Mumbai): dynamodb.ap-south-1.amazonaws.com (52.94.20.74):
+24 bytes from 52.94.20.74: icmp_seq=0 time=289.713725ms
+24 bytes from 52.94.20.74: icmp_seq=1 time=308.084165ms
+24 bytes from 52.94.20.74: icmp_seq=2 time=333.039238ms
+24 bytes from 52.94.20.74: icmp_seq=3 time=355.736446ms
+24 bytes from 52.94.20.74: icmp_seq=4 time=279.074325ms
+24 bytes from 52.94.20.74: icmp_seq=5 time=305.172324ms
+24 bytes from 52.94.20.74: icmp_seq=6 time=326.592866ms
+24 bytes from 52.94.20.74: icmp_seq=7 time=353.602188ms
+24 bytes from 52.94.20.74: icmp_seq=8 time=273.021077ms
+24 bytes from 52.94.20.74: icmp_seq=9 time=298.889498ms
+--- Asia Pacific (Mumbai) ping 统计 ---
+发送数量：10 , 接收数量：10, 丢包数量：0%
+时长统计： min/avg/max/stddev = 273.021077ms/312.292585ms/355.736446ms/27.62668ms
+
+Asia Pacific (Tokyo): dynamodb.ap-northeast-1.amazonaws.com (52.94.8.80):
+24 bytes from 52.94.8.80: icmp_seq=0 time=155.795187ms
+24 bytes from 52.94.8.80: icmp_seq=1 time=164.265306ms
+24 bytes from 52.94.8.80: icmp_seq=2 time=168.531888ms
+24 bytes from 52.94.8.80: icmp_seq=3 time=168.550534ms
+24 bytes from 52.94.8.80: icmp_seq=4 time=166.317538ms
+24 bytes from 52.94.8.80: icmp_seq=5 time=157.242037ms
+24 bytes from 52.94.8.80: icmp_seq=6 time=163.543112ms
+24 bytes from 52.94.8.80: icmp_seq=7 time=166.908521ms
+24 bytes from 52.94.8.80: icmp_seq=8 time=166.475877ms
+24 bytes from 52.94.8.80: icmp_seq=9 time=173.087024ms
+--- Asia Pacific (Tokyo) ping 统计 ---
+发送数量：10 , 接收数量：10, 丢包数量：0%
+时长统计： min/avg/max/stddev = 155.795187ms/165.071702ms/173.087024ms/4.955426ms
+
+AWS GovCloud (US): dynamodb.us-gov-west-1.amazonaws.com (52.94.9.73):
+24 bytes from 52.94.9.73: icmp_seq=0 time=280.739878ms
+24 bytes from 52.94.9.73: icmp_seq=1 time=304.130704ms
+24 bytes from 52.94.9.73: icmp_seq=2 time=219.578098ms
+24 bytes from 52.94.9.73: icmp_seq=3 time=398.326758ms
+24 bytes from 52.94.9.73: icmp_seq=4 time=1.007085962s
+24 bytes from 52.94.9.73: icmp_seq=5 time=1.002374168s
+24 bytes from 52.94.9.73: icmp_seq=6 time=206.594717ms
+24 bytes from 52.94.9.73: icmp_seq=7 time=205.628644ms
+24 bytes from 52.94.9.73: icmp_seq=8 time=206.306085ms
+24 bytes from 52.94.9.73: icmp_seq=9 time=206.603303ms
+--- AWS GovCloud (US) ping 统计 ---
+发送数量：10 , 接收数量：10, 丢包数量：0%
+时长统计： min/avg/max/stddev = 205.628644ms/403.736831ms/1.007085962s/306.160508ms
+
+US East (Ohio): dynamodb.us-east-2.amazonaws.com (52.94.4.10):
+24 bytes from 52.94.4.10: icmp_seq=0 time=230.100403ms
+24 bytes from 52.94.4.10: icmp_seq=1 time=227.349506ms
+24 bytes from 52.94.4.10: icmp_seq=2 time=226.500065ms
+24 bytes from 52.94.4.10: icmp_seq=3 time=303.745084ms
+24 bytes from 52.94.4.10: icmp_seq=4 time=226.656282ms
+24 bytes from 52.94.4.10: icmp_seq=5 time=251.471753ms
+24 bytes from 52.94.4.10: icmp_seq=6 time=274.021276ms
+24 bytes from 52.94.4.10: icmp_seq=7 time=298.443041ms
+24 bytes from 52.94.4.10: icmp_seq=8 time=225.697935ms
+24 bytes from 52.94.4.10: icmp_seq=9 time=244.282525ms
+--- US East (Ohio) ping 统计 ---
+发送数量：10 , 接收数量：10, 丢包数量：0%
+时长统计： min/avg/max/stddev = 225.697935ms/250.826787ms/303.745084ms/29.046702ms
+
+Europe (London): dynamodb.eu-west-2.amazonaws.com (52.94.15.144):
+24 bytes from 52.94.15.144: icmp_seq=0 time=331.141977ms
+24 bytes from 52.94.15.144: icmp_seq=1 time=327.303576ms
+24 bytes from 52.94.15.144: icmp_seq=3 time=377.375496ms
+24 bytes from 52.94.15.144: icmp_seq=4 time=330.361172ms
+24 bytes from 52.94.15.144: icmp_seq=5 time=423.848359ms
+24 bytes from 52.94.15.144: icmp_seq=6 time=329.970279ms
+24 bytes from 52.94.15.144: icmp_seq=7 time=331.791685ms
+24 bytes from 52.94.15.144: icmp_seq=8 time=326.966517ms
+24 bytes from 52.94.15.144: icmp_seq=9 time=326.917034ms

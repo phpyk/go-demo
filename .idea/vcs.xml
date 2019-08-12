@@ -2,5 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go-ping" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/golang.org/x/go-ping" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/golang.org/x/net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/golang.org/x/sys" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/golang/sys" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/sparrc/go-ping" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/sys" vcs="Git" />
   </component>
 </project>
