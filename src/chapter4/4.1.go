@@ -5,6 +5,9 @@ import (
 	"html/template"
 	"log"
 	"net/http"
+	"os"
+	"path/filepath"
+	"strings"
 )
 
 func main() {
@@ -19,7 +22,13 @@ func login(w http.ResponseWriter, r *http.Request) {
 
 	//获取请求的方法 r.Method
 	fmt.Println(r.Method)
+	dir := GetCurrentDir()
+	fmt.Println("当前目录：",dir)
 	if r.Method == "GET" {
+		if !CheckExists("login.gtpl") {
+			fmt.Println("模板文件不存在")
+			return
+		}
 		t,_ := template.ParseFiles("login.gtpl")
 		log.Println(t.Execute(w,nil))
 	} else {
@@ -44,4 +53,23 @@ func login(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 	}
+}
+
+func CheckExists(filename string) (r bool) {
+	_,err := os.Stat(filename)
+	if err != nil {
+		if os.IsExist(err) {
+			return true
+		}
+		return false
+	}
+	return true
+}
+
+func GetCurrentDir() string {
+	dir,err := filepath.Abs(filepath.Dir(os.Args[0]))
+	if err != nil {
+		log.Fatal("err")
+	}
+	return strings.Replace(dir,"\\","/",-1)
 }
