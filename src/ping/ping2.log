@@ -1,0 +1,15 @@
+Asia Pacific (Mumbai): dynamodb.ap-south-1.amazonaws.com (52.94.20.0):
+24 bytes from 52.94.20.0: icmp_seq=1 time=263.894963ms
+24 bytes from 52.94.20.0: icmp_seq=2 time=386.387464ms
+24 bytes from 52.94.20.0: icmp_seq=3 time=280.443035ms
+24 bytes from 52.94.20.0: icmp_seq=5 time=460.220459ms
+24 bytes from 52.94.20.0: icmp_seq=8 time=530.060116ms
+24 bytes from 52.94.20.0: icmp_seq=9 time=449.094903ms
+US-West (California): dynamodb.us-west-1.amazonaws.com (52.94.12.156):
+24 bytes from 52.94.12.156: icmp_seq=0 time=172.299159ms
+24 bytes from 52.94.12.156: icmp_seq=2 time=166.548666ms
+24 bytes from 52.94.12.156: icmp_seq=3 time=166.774594ms
+24 bytes from 52.94.12.156: icmp_seq=4 time=170.622757ms
+24 bytes from 52.94.12.156: icmp_seq=5 time=184.015361ms
+24 bytes from 52.94.12.156: icmp_seq=6 time=167.657139ms
+24 bytes from 52.94.12.156: icmp_seq=8 time=168.277254ms
